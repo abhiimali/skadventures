@@ -45,22 +45,27 @@ a {
 
     /* box-sizing: border-box; */
     display: block;
-    block-size: 50px;
+    block-size: 35px;
     /* border-left-width: 5px; */
     max-block-size: 150px;
     /* writing-mode: horizontal-tb; */
     background-color: lightblue;
-    padding: 12px;
+    /* padding: 5px; */
     border-radius: 22px;
     color: black;
-    margin: 5px;
+    margin: 0px;
     /* width: 100px; */
-    width: 25%;
+    width: 150px;
     /* overflow: hidden */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
 .nav__link{
     color: black;
+    /* overflow-wrap: break-word */
 }
 @media screen and (max-width: 768px) {
   .nav__toggler {
@@ -77,6 +82,8 @@ a {
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    margin: 0;
+    padding: 1px;
   }
 }
 /* Active Class */

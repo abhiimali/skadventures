@@ -21,7 +21,7 @@ const Header = () => {
     
     <nav className="nav">
       <Link href="#" className="nav__brand">
-        SK Adventures
+        SKAdventures
       </Link>
       <ul className={active}>
         <li className="nav__item">
