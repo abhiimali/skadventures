@@ -1,6 +1,9 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 
+.container {
+ background: black
+}
 
 
 .gallery { 
@@ -8,7 +11,7 @@
      /* align-items: center; */
      margin-top: 10px; 
     
-     z-index: -99;
+     z-index: -99; 
 
 }
 
